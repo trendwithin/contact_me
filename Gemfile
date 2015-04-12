@@ -13,6 +13,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'figaro'
 gem 'letter_opener'
 gem 'sidekiq'
+gem 'twitter-bootstrap-rails'
+gem 'therubyracer'
+gem 'less-rails'
 
 
 group :development, :test do
