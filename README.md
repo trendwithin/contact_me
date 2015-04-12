@@ -1,6 +1,6 @@
 #Contact Me
 
-![](https://raw.github.com/trendwithin/contact_me/public/contact_me.png)
+![](/public/contact_me.png?raw=true)
 
 
 ###Usage###
