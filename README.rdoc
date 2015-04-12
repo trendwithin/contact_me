@@ -1,6 +1,6 @@
 #Contact Me
 
-
+![](https://github.com/trendwithin/contact_me/public/contact_me.png)
 ###Usage###
 Rails app to create a Contact Form that sends email asynchronously using Sidekiq.
 Tested with gem letter_opener.
