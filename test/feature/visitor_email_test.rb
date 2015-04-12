@@ -1,9 +1,18 @@
 require "test_helper"
 
-feature "VisitorEmail" do
-  scenario "the test is sound" do
+feature "Visitor Can Contact Me Through Email" do
+
+
+  scenario "Fills in form and sends" do
+    input = users(:visitor)
+    # Given a visitor views the contact page
     visit root_path
-    page.must_have_content "Hello World"
-    page.wont_have_content "Goobye All!"
+
+    # When they fill in the form
+    fill_in "Name", with: input.name
+    fill_in "Email", with: input.email
+    fill_in "Message", with: input.message
+
+    click_button 'Contact Me'
   end
 end
